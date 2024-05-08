@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="3. PRACTICAS">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/3. PRACTICAS/mapaV03.zip!/" />
+      <root url="jar://$PROJECT_DIR$/3. PRACTICAS/mapaV02.zip!/" />
+      <root url="jar://$PROJECT_DIR$/3. PRACTICAS/calculadora.zip!/" />
+      <root url="jar://$PROJECT_DIR$/3. PRACTICAS/mapav1.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

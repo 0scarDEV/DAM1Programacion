@@ -33,8 +33,10 @@ public class ListaNombresOrdenadas {
             out.writeObject(nombres);
         } catch (FileNotFoundException e) {
             System.out.println("No se ha encontrado el archivo.");
+            throw new RuntimeException(e);
         } catch (IOException e) {
             System.out.println("Error de lectura");
+            throw new RuntimeException(e);
         }
 
         System.out.println(nombres);

@@ -4,6 +4,11 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+
 public class Ejemplo1 extends Application{
         @Override public void start(Stage primaryStage) throws Exception {
             // En la ventana le asignamos el título
@@ -20,6 +25,13 @@ public class Ejemplo1 extends Application{
             primaryStage.show();
         }
         public static void main(String[] args) {
-            launch(args);
+
+            try (BufferedReader in = new BufferedReader(new FileReader("UD07/0. Pruebas/pruebas/prueba.txt"))) {
+                System.out.println(in.read());
+            } catch (FileNotFoundException e) {
+                throw new RuntimeException(e);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         }
 }

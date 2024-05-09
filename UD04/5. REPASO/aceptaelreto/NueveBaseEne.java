@@ -5,7 +5,7 @@ public class NueveBaseEne {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int base = sc.nextInt();
-        if (base < 2 || base > 36){
+        if (base < 2 || base > 36) {
             throw new IllegalArgumentException("Base fuera del rango permitido.");
         }
 
@@ -15,14 +15,16 @@ public class NueveBaseEne {
             baseInferiorAonce();
         }
     }
-    private  static void solucion(int dividendo, int divisor, int resto, int cociente) {
-        if (dividendo % divisor == resto && dividendo  / divisor == cociente) {
+
+    private static void solucion(int dividendo, int divisor, int resto, int cociente) {
+        if (dividendo % divisor == resto && dividendo / divisor == cociente) {
             System.out.println("POSIBLEMENTE CORRECTO");
         } else {
             System.out.println("INCORRECTO");
         }
     }
-    private  static void baseInferiorAonce() {
+
+    private static void baseInferiorAonce() {
         Scanner sc = new Scanner(System.in);
         int dividendo = sc.nextInt();
         int divisor = sc.nextInt();
@@ -31,6 +33,7 @@ public class NueveBaseEne {
 
         solucion(dividendo, divisor, cociente, resto);
     }
+
     private static void baseSuperiorAdiez() {
         Scanner sc = new Scanner(System.in);
         int dividendo = 0, divisor = 0, cociente = 0, resto = 0;
@@ -107,9 +110,7 @@ public class NueveBaseEne {
                     }
                     str += rest;
                 }
-                resto = Integer.parseInt(str);
             }
-            solucion(dividendo, divisor, cociente, resto);
         }
     }
 }

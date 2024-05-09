@@ -41,6 +41,14 @@
       <sourceFolder url="file://$MODULE_DIR$/UD07/4. Scene Builder" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/UD01" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UD02" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UD03" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UD04" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UD05" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UD06" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UD07" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UD08/1. APUNTES" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -72,5 +80,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="mysql-connector-java-8.0.30" level="project" />
   </component>
 </module>

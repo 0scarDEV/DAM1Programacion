@@ -21,8 +21,8 @@ public class AppLaberintoV03 extends Application {
     PersonajeFX personaje;
     MenuBar menuBar;
     Label barraEstado;
-    Image IMAGE_CARNE = new Image("ud7/javafxpracticas/mapaV03/img/carne.jpg");
-    Image IMAGE_PERSONAJE = new Image("ud7/javafxpracticas/mapaV03/img/personaje.png");
+    Image IMAGE_CARNE = new Image("mapaV03/img/carne.jpg");
+    Image IMAGE_PERSONAJE = new Image("mapaV03/img/personaje.png");
 
     // Atributos principales del juego
     int platosRecogidos = 0;

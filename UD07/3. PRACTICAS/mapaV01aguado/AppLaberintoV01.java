@@ -6,7 +6,7 @@ import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 public class AppLaberintoV01 extends Application {
-    MapaFX mapa;
+   MapaFX mapa;
     PersonajeFX personaje;
 
     public static void main(String[] args) {
@@ -79,7 +79,4 @@ public class AppLaberintoV01 extends Application {
         primaryStage.setScene(scene);
         primaryStage.show();
     }
-
-
-
 }

@@ -1,4 +1,4 @@
-package src;
+package E14a;
 
 import java.sql.Statement;
 import java.util.ArrayList;
@@ -11,7 +11,6 @@ public class App {
 
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, BD!");
-
         List<String> lista = new ArrayList<>();
         lista.add("Alberto");
         lista.add("Angel");
@@ -37,8 +36,6 @@ public class App {
         lista.add("Yoel");
         lista.add("Diego");
 
-
-
         Connection conexionBD = conectarBD();
         if (conexionBD == null) {
             System.out.println("Error al conectar con la BD");
@@ -58,9 +55,9 @@ public class App {
 
     static private Connection conectarBD() {
         Connection con;
-        String url = "jdbc:mysql://" + BD.HOST + "/" + BD.DATABASE;
+        String url = "jdbc:mysql://" + BDDatos.HOST + "/" + BDDatos.DATABASE;
         try {
-            return DriverManager.getConnection(url, BD.USER, BD.PASSWD);
+            return DriverManager.getConnection(url, BDDatos.USER, BDDatos.PASSWD);
         } catch (SQLException e) {
             e.printStackTrace();
             return null;

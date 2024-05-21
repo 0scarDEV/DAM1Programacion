@@ -3,8 +3,6 @@ package E14a;
 import com.mysql.cj.jdbc.result.ResultSetImpl;
 
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class App2 {
 
